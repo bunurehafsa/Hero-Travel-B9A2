@@ -151,6 +151,7 @@ input,select{
   .description{
     display: flex;
     flex-direction: column;
+    
     row-gap: 1rem;
   }
   .description h3{
@@ -162,6 +163,24 @@ input,select{
     line-height: 24px;
     word-spacing: 4px;
 
+  }
+ .your-destination img{
+  width: 100%;
+  filter: brightness(80%);
+ }
+  .row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+  }
+  
+  .country{
+    position: relative;
+    top: -50%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
   }
 
   /* footer styles */
